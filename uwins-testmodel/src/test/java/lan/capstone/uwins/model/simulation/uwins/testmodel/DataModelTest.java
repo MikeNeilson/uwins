@@ -52,7 +52,7 @@ public class DataModelTest {
                                     + "0,0.5;  0, 0.5;  0,0.5; 0,0.5;"
                                     + "0,0.5;  0, 0.5; 15,5  ;15,1   : 1000\r\n";
         config+= "start: 2000-01-01T00:00:00UTC\r\n";
-        config+= "raininess: .5, .25: 100\r\n";
+        config+= "raininess: .1, .075: 100\r\n";
         config+= "interval: 900\r\n";
         config+= "tsname: uwins://TEST.Precip.Total.15Minute.15Minutes.Simulation\r\n";
     }
