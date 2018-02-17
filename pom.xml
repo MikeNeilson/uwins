@@ -12,7 +12,10 @@
     <module>uwins-JndiMQRef</module>
     <module>uwins-testmodel</module>
     <module>uwins-historicaldb</module>
-  </modules>
+        <module>uwins-security</module>
+        <module>simplecases</module>
+        <module>uwins-JndiMQRef/uwins-JndiMQRef-web</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

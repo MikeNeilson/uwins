@@ -30,7 +30,13 @@ public class MarkovChain {
     }
 
     
-
+    
+    
+    /**
+     * Base on suggetion from https://stackoverflow.com/questions/4511331/randomly-selecting-an-element-from-a-weighted-list
+     * @param roll random number between 0 and 1 (inclusive) to select state base on probability
+     * @return 
+     */
     int chooseState(double roll) {
         double row[] = mat[state];
         
